@@ -1,0 +1,121 @@
+@font-face{
+	font-family: 'montserrat';
+	src: url('/font/Montserrat/Montserrat-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#montpol{
+	font-family: montserrat;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+nav{
+	background: #111F42;/*1977C8		WARNING verifier pk le couleur bleu revient auu chargement*/
+	height: 80px;
+	width: 100%;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin : 0 5px;
+}
+
+nav ul li a{
+	color : white;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+
+nav ul li a:hover,nav ul li a:active{
+	background :#1b9bff;
+	transition: .5s;
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: white;
+	float : right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+label.logo a{
+	color : white;
+	font-size: 2em;
+	line-height: 75px;
+	padding: 0px 5%;
+	font-weight: bold;
+}
+
+#check{
+	display: none;
+}
+
+@media (max-width: 1085px){
+
+	label.logo a{
+		font-size: 1.3em;
+	}
+	.checkbtn{
+		display: block;
+		margin-right: 10%;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a{
+		font-size: 0.7em;
+	}
+	nav ul li a:hover,nav ul li a.active{
+		background : none;
+		color: cyan;
+	}
+
+	#ul{
+		position: fixed;
+		width: 33%;
+		height: 100vh;
+		background: #2c3e50;
+		top: 80px;;
+		top:80px;
+		right:-100%;
+		text-align: center;	border-radius: 3px;
+		transition: all .5s;
+	}
+	#check:checked ~ #montpol ul{
+		right:-20px;
+	}
+}
+
+@media (max-width: 265px){
+	label.logo a{
+		font-size: 0.7em;
+		padding : 0px 1%;
+	}
+	.checkbtn{
+		font-size: 10px;
+	}
+	nav ul li a{
+		font-size: 0.35em;
+	}
+}
