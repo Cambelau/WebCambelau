@@ -1,0 +1,113 @@
+/* Css for the myaccount page*/
+h2{
+	color: black;
+	width: 326px;
+	position: absolute;
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+	font: bold 22px arial;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.accountpage-container {
+	padding: 50px;
+	margin-left: -100px;
+	width: 1400px;
+	height: 430px;
+	background-color: transparent;
+	display: flex;
+	margin-top: 150px;
+	border-radius: 10px;
+}
+
+img{
+	vertical-align: middle;
+}
+
+#userpres{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+td{
+	padding: 3px;
+}
+
+.producttable{
+	margin-top: 30px;
+	border-spacing: 15px;
+}
+
+.sbt{
+	font-family: "Roboto", sans-serif;
+	margin: 10px;
+	height: 20px;
+	width: 80px;
+	border: 0;
+	font-size: 14px bold;
+	cursor: pointer;
+}
+
+.myprofilContainer .uName{
+	color: white;
+	margin-left: 130px;
+	font-weight : bold;
+}
+
+.Last-product::-webkit-scrollbar, .Last-sell::-webkit-scrollbar, .Last-offer::-webkit-scrollbar {
+	display: none;
+}
+
+.accountpage-container .Last-sell {
+	margin: 10px;
+	background-color: #fff07c;
+	width: 25%;
+	flex: left;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+.accountpage-container .Last-product {
+	margin: 10px;
+	background-color: #f0f7ee;
+	width: 25%;
+	flex: left;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+.accountpage-container .Last-offer {
+	margin: 10px;
+	background-color: #3e78b2;
+	width: 25%;
+	flex: left;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+.accountpage-container .myprofilContainer {
+	margin: 10px;
+	background-color: #5d737e;
+	width: 25%;
+	flex: left;
+	border-radius: 10px;
+}
+.true
+{
+	background-color: green;
+
+}
+.false
+{
+	background-color: red;
+
+}
+
+#editProfil{
+	display: none;
+	margin: 10px;
+}
+#showProfil{
+	margin: 10px;
+}

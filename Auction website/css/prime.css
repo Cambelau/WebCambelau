@@ -1,0 +1,173 @@
+/* Css for the main page and for the carousel*/
+html {
+  display: table;
+  margin: auto;
+  height: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /*background-color: #5d737e;*/
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(93,115,126,1) 35%, rgba(93,115,126,1) 36%, rgba(61,144,170,1) 78%, rgba(2,113,144,0.9984944661458334) 100%);
+  font-family: "arial";
+  font-family: serif;
+  color: white;
+  width: 1300px;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "FontProjet";
+  src: url('Acens.ttf');
+}
+
+nav {
+  width: 1300px;
+  margin: 0 auto;
+  background-color: transparent;
+  position: sticky;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  position: relative;
+  font: normal normal bold 20px arial;
+  text-decoration: none;
+}
+
+nav ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid ##f0f7ee;
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+nav a:hover {
+  background-color: #f0f7ee;
+  text-decoration: none;
+  color: black;
+}
+
+.sous {
+  display: none;
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  border: 1px solid #f0f7ee;
+}
+
+nav>ul li:hover .sous {
+  display: block;
+}
+
+.sous li {
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+
+.sous a {
+  border-bottom: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.deroule>a::before {
+  float: left;
+}
+
+hr{
+  margin-top: 10px;
+}
+
+.sponsor{
+  position: absolute;
+  height: 450px;
+  width: 1900px;
+  margin-top: 20px;
+  margin-left: -300px;
+  background-color: white;
+}
+
+#seemore{
+  width: 100px;
+  height: 40px;
+  border-color: #fff07c;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff07c;
+  font: bold 15px arial;
+}
+
+#seemore a{
+  text-decoration: none;
+  color: #fff07c;
+}
+
+#footer {
+  margin-top: 10px;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  40% {
+   opacity: 1;
+ }
+ 60% {
+   opacity: 1;
+ }
+ 100% {
+   opacity: 0;
+ }
+}
+
+.message {
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fadeInOut 2s;
+  animation: fadeInOut 2s;
+}
+
+.loader {
+  height : 100%;
+  width : 100%;
+  position : fixed;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background : black 50% 50% no-repeat;
+  top : 0px;
+  left : 0px;
+
+}
+
+nav #sellHov:hover{
+  background-color: gray;
+}

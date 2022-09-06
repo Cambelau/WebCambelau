@@ -1,0 +1,85 @@
+/* Css for the product page*/
+.container
+{
+  background-color: white;
+width: 100%;
+margin-top: 30px;
+display: flex;
+border-radius: 10px;
+}
+
+.container .otherimg
+{
+width: 12%;
+}
+
+.container .left
+{
+  color: black;
+ margin-top: 20px;
+ flex: left;
+ width: 37%;
+ text-align: center;
+}
+
+.container .right
+{
+  padding-top: 10px;
+  background-color: #87bba2;
+  width: 50%;
+  margin-left: 5%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h1
+{
+ font-size: 30px;
+
+}
+
+titleproduct
+{
+font-size: 30px;
+text-align: center;
+align-items: center;
+}
+#product-img
+{
+padding-top: 10px;
+}
+#product-price
+{
+  font-size: 70px;
+  text-align: center;
+}
+.but-product
+{ background-color: #334355;
+  color: white;
+  border: 3px solid white;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font: bold 15px arial;
+  border-radius: 10px;
+}
+#buyn{
+  background-color: red;
+}
+
+#offert-input
+{
+ width: 300px;
+ height: 20px;
+}
+
+#imgsoldout
+{
+  margin-left: 40px;
+}
+.description
+{
+ width: 100%;
+ padding: 15px;
+}

@@ -1,0 +1,65 @@
+/* Css for the login page*/
+.loginpage {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  margin-top: 50px;
+}
+.form {
+  position: relative;
+  background: #f9f8f6;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  background: #334355;
+  color: #FFFFFF;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #516c8a;
+}
+.form .lmessage {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .lmessage a {
+  color: #334355;
+  text-decoration: none;
+}
+.form .register {
+  display: none;
+}
+
+.form input[type="checkbox"]{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #aaa;
+  background: #FFF;
+  border-radius: .2em;
+  box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 rgba(203, 34, 237, .2);
+  transition: all .275s;
+}
+
+.form label{
+  color:gray;
+  text-align: center;
+}
